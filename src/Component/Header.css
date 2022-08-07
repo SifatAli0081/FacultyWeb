@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.nav-links {
+    flex: 1 ;
+    text-align: right;
+    margin: 10px 20px 0 0;
+}
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 5px 10px;
+}
+.nav-links ul li {
+    color: black;
+    text-decoration: none;
+    font-style: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: 0;
+    transition: 0.5s;
+}
